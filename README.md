@@ -1,9 +1,12 @@
 # MDIA-1620_Hidayat
 My repository for the MDIA 1620 class
 
-Name: Hidayat Patil
+Name: Hidayat Patil <br>
+<img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/mayo-chicken-sandwich-recipe.jpg" alt="Chicken Sanddwich" width="200" height="200">
+<br>
+My favorite sandwich is "Chicken Sandwich"
 
-> ## 3-2-1 Excercis
+> ## 3-2-1 Excercise
 > ### "Aha": Moments:
 > 1. Got to know what terminal is used for, had no clue before.
 > 2. Finally understood what "ls/dir" and "cd" is used for.
