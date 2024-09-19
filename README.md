@@ -8,11 +8,11 @@ My favorite sandwich is "Chicken & Mayo Sandwich"
 
 > ## 3-2-1 Excercise (Week 3)
 > ### "Aha": Moments:
-> 1. Understood what the git commands do, eg.: "git clone", "git add", etc.
+> 1. Understood what the git commands do, eg.: "git clone", "git pull", etc.
 > 2. Using Console.log to show data inside a file
 > 3. Clear understanding of the difference between a string, number and boolean.
 > ### Things that are still unclear:
-> 1. Couldn't do the pull or push cause I was using the school computer, though hopefully I shouldn't face the issue, if I do I'll refer to the solutions that others have provided
-> 2. Other than the above I have pretty much understood all of it.
+> 1. Still a bit unclear about the exact difference between git add and git commit.
+> 2. Also what's the difference between Java & Javascript?? was javascript created based off of java??
 > ### Word for how you're feeling:
 > 1. Looking forward to the next class. "Excited" 
