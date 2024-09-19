@@ -7,7 +7,7 @@ Name: Hidayat Patil <br>
 My favorite sandwich is "Chicken & Mayo Sandwich"
 
 > ## 3-2-1 Excercise
-> ### "Aha": Moments:
+> ### "Aha" Moments:
 > 1. Got to know what terminal is used for, had no clue before.
 > 2. Finally understood what "ls/dir" and "cd" is used for.
 > 3. Got to know that there's a markdown language, while there's a markup "html"
