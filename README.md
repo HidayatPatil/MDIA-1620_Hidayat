@@ -6,13 +6,13 @@ Name: Hidayat Patil <br>
 <br>
 My favorite sandwich is "Chicken & Mayo Sandwich"
 
-> ## 3-2-1 Excercise
-> ### "Aha" Moments:
-> 1. Got to know what terminal is used for, had no clue before.
-> 2. Finally understood what "ls/dir" and "cd" is used for.
-> 3. Got to know that there's a markdown language, while there's a markup "html"
+> ## 3-2-1 Excercise (Week 3)
+> ### "Aha": Moments:
+> 1. Understood what the git commands do, eg.: "git clone", "git add", etc.
+> 2. Using Console.log to show data inside a file
+> 3. Clear understanding of the difference between a string, number and boolean.
 > ### Things that are still unclear:
-> 1. How does Git connect to github that's on the web?? do you need constant network for it to work?
-> 2. Where's the doctor's office on campus?? just curious
+> 1. Couldn't do the pull or push cause I was using the school computer, though hopefully I shouldn't face the issue, if I do I'll refer to the solutions that others have provided
+> 2. Other than the above I have pretty much understood all of it.
 > ### Word for how you're feeling:
-> 1. Excited
+> 1. Looking forward to the next class. "Excited" 
