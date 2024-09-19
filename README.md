@@ -4,7 +4,7 @@ My repository for the MDIA 1620 class
 Name: Hidayat Patil <br>
 <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/mayo-chicken-sandwich-recipe.jpg" alt="Chicken Sanddwich" width="200" height="200">
 <br>
-My favorite sandwich is "Chicken Sandwich"
+My favorite sandwich is "Chicken & Mayo Sandwich"
 
 > ## 3-2-1 Excercise
 > ### "Aha": Moments:
