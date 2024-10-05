@@ -24,7 +24,7 @@ let horseNickName = "Gilli";
 console.log(`The Horse's name is ${horseName}, but you can call him ${horseNickName}. He's ${horseAge} years old.`);
 console.log(`our usual price per month is ${stableMonthlyFee}$.`);
 const discountPrice = (stableMonthlyFee * 3) * 0.1;
-console.log (`But if you join today, you'll get a 10% discount for the first 3 months. This would bring the price down to ${(stableMonthlyFee * 3) - discountPrice}`)
+console.log (`But if you join today, you'll get a 10% discount for the first 3 months. This would bring the price down to ${(stableMonthlyFee * 3) - discountPrice}`);
 console.log("-----------------------------------------------------------------------------------------------");
 //////////////////Lesson 5 - Lab
 let visitingHorse = "Gengar";
