@@ -1,7 +1,7 @@
 console.log("horses are great!") //string sample, it is a sequence of characters
 let horseName = "Gilbert"; //The variable is named using camel convention
 let horseAge = 5; //this is a number, it is a sequence of numbers. anything inside a "---" is a string
-let isHorseInStable = true; //This is a boolean
+let isHorseInStable = false; //This is a boolean
 //decleration "let" is only supposed to be used 1 / the first time when your declaring a variable
 console.log(horseName);
 console.log(horseAge);
@@ -25,3 +25,16 @@ console.log(`The Horse's name is ${horseName}, but you can call him ${horseNickN
 console.log(`our usual price per month is ${stableMonthlyFee}$.`);
 const discountPrice = (stableMonthlyFee * 3) * 0.1;
 console.log (`But if you join today, you'll get a 10% discount for the first 3 months. This would bring the price down to ${(stableMonthlyFee * 3) - discountPrice}`)
+console.log("-----------------------------------------------------------------------------------------------");
+//////////////////Lesson 5 - Lab
+let visitingHorse = "Gengar";
+if ((horseName === "Gilbert" && isHorseInStable) && (visitingHorse === "Strawberry" || visitingHorse === "Gengar")){
+    console.log(`${horseName} come out, ${visitingHorse} has come to visit`);
+} else if ((horseName === "Gilbert" && !isHorseInStable) && (visitingHorse === "Strawberry" || visitingHorse === "Gengar")) {
+    console.log(`${horseName} is playing around with ${visitingHorse}`);
+} else {
+    console.log(`${horseName} has got to figure out what's happening!`);
+}
+
+
+
