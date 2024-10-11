@@ -32,3 +32,21 @@ if (horseOne[1] * horseTwo[1] === 80){
 // - mention 3 confusing things
 // - 3 things you have properly understood
 // - Analogies that you use to think about things (optional gif)
+
+console.log("------------------------------------------------------------------");
+//Lesson 6 - Assignment
+console.log("LESSON06 - Assignment");
+
+let horseThree = ["Gilbert", 5, true, "Gilli"]
+let allHorseNames = [horseOne[0], horseTwo[0], horseThree[0]];
+let allHorseStable = [horseOne[3], horseTwo[3], horseThree[3]];
+
+console.log(`In my ranch there are ${allHorseNames.length} horses.`);
+console.log(`They are ${horseOne[0]}, ${horseTwo[0]},and ${horseThree[0]}.`);
+console.log(`The horses are ${horseOne[1]}yrs, ${horseTwo[1]}yrs, and ${horseThree[1]}yrs of age respectively.`);
+
+if (allHorseStable === true){
+    console.log (`At the moment all ${allHorseNames.length} horses are inside`);
+} else {
+    console.log (`At the moment all ${allHorseNames.length} horses are outside`);
+} 
