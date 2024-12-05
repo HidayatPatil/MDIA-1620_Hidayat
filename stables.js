@@ -190,7 +190,7 @@ function stallAvailibility(horseVar){
     if (availableStalls <= 2){
         return (`We need to build more stalls!`);
     } else {
-        return (`We have ${availableStalls} remaining!`);
+        return (`We have ${availableStalls} stalls remaining!`);
     }
 };
 console.log(stallAvailibility(horses))
@@ -203,17 +203,17 @@ function latePayment(horseVar){
 };
 console.log(latePayment(horses));
 
-function likesTreat(horseVar){
-    for(let i = 0; i < horseVar.length; i++){
-        let treat = horses[2]["favoriteTreat"];
+function likesTreat(horseVar, indexNumber){
+    let treat = horses[indexNumber]["favoriteTreat"];
+    for(let i = 0; i < horseVar.length; i++){  
         if(horseVar[i]["favoriteTreat"] === treat){
-            return (`${horseVar[i]["name"]} likes ${treat}`);
+            console.log (`${horseVar[i]["name"]} likes ${treat}`);
         } else {
             console.log(`${horseVar[i]["name"]} does not like ${treat}. He preferes ${horseVar[i]["favoriteTreat"]}`);
         }
     };
 };
-console.log(likesTreat(horses));
+console.log(likesTreat(horses, 3));
 
 function findNickname(horseName){
     for(let i = 0; i < horses.length; i++){
@@ -237,7 +237,7 @@ function findHorseColor(hairColor){
     } 
     return (`No horse has ${hairColor} colored ponytails`);
 };
-console.log(findHorseColor("blue"));
+console.log(findHorseColor("Black"));
 
 function goOutHorses (horseVar){
     for(let i = 0; i < horseVar.length; i++){
@@ -249,11 +249,13 @@ function goOutHorses (horseVar){
 };
 console.log(goOutHorses(horses));
 
-horses[3].callInside = function (){
-    if(this.isInside == false){
-        return this.isInside = true;
-    } 
-        return this.isInside = false;
+for (let i = 0; i < horses.length; i++){
+    horses[i].updateHorseLocation = function (){
+        if(this.isInside == false){
+            return this.isInside = true;
+        } 
+            return this.isInside = false;
+    };
 };
 
 function feedHorses (horseVar){
@@ -266,13 +268,14 @@ function feedHorses (horseVar){
 };
 console.log(feedHorses(horses));
 
-function updateHorseLocation (horseVar){
-    console.log(goOutHorses(horseVar));
+function gettingDarkOutside (horseVar){
     for(let i = 0; i < horseVar.length; i++){
+        console.log(horseVar[i].updateHorseLocation())
         if(horseVar[i].isInside === false){
             horseVar[i].isInside = true;
+            console.log(`${horseVar[i].name} come inside it's getting dark outside`);
         };
-        console.log(`${horseVar[i].name} come inside it's getting dark outside`);
     };
 };
-console.log(updateHorseLocation(horses));
+console.log(gettingDarkOutside(horses));
+
