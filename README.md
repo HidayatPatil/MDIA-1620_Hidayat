@@ -6,14 +6,17 @@ Name: Hidayat Patil <br>
 <br>
 My favorite sandwich is "Chicken & Mayo Sandwich"
 
-> ## 3-2-1 Excercise (Week 3)
-> ### "Aha": Moments:
-> 1. Understood what the git commands do, eg.: "git clone", "git pull", etc.
-> 2. Using Console.log to show data inside a file
-> 3. Clear understanding of the difference between a string, number and boolean.
-> ### Things that are still unclear:
-> 1. Still a bit unclear about the exact difference between git add and git commit.
-> 2. Also what's the difference between Java & Javascript?? was javascript created based off of java??
-> ### Word for how you're feeling:
-> 1. Looking forward to the next class. "Excited" 
-
+> ## Excercise (Week 6)
+> ### 3 Confusing Things:
+> 1. The whole concept of merging and commit is still a bit overwhelming.
+> 2. Does the action of adding another primitive within an existing array set via "push" also work for "const." variable??
+> 3. How can one go back a version if they have accidentally merged their new commit.
+> ### 3 Things I have a solid understanding about:
+> 1. How to use the terminal to view files.
+> 2. Using the "let" and "const" variable.
+> 3. The concept of boolean kinda intimidating, but I think I have a pretty good understanding now.
+> ### Analogy I use in class:
+> 1. I think about a video I saw in regards to a genie granting a wish. In that unless you are extremely literal, you'll end up getting an entirely different wish granted to you. So I always think about being absolute literal when coding. 
+<br>
+<img src="https://i0.wp.com/media3.giphy.com/media/TrYXjFjgam6A0/giphy.gif" alt="Chicken Sanddwich" width="200" height="200">
+<br>
