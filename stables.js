@@ -138,7 +138,8 @@ horses[3]["isHungry"] = true;
 //       ponyTails: 5,
 //       horseIntro: [Function: horseIntro],
 //       ponyTailCount: [Function: ponyTailCount],
-//       isHungry: true
+//       isHungry: true,
+//       updateHorseLocation: [Function (anonymous)]
 //     },
 //     StableHorse {
 //       name: 'Gilbert',
@@ -146,12 +147,13 @@ horses[3]["isHungry"] = true;
 //       favoriteTreat: 'Pumpkins',
 //       age: 12,
 //       monthlyRent: 400,
-//       isInside: false,
+//       isInside: true,
 //       color: 'Orange',
 //       ponyTails: 3,
 //       horseIntro: [Function: horseIntro],
 //       ponyTailCount: [Function: ponyTailCount],
-//       isHungry: false
+//       isHungry: false,
+//       updateHorseLocation: [Function (anonymous)]
 //     },
 //     StableHorse {
 //       name: 'Kabutops',
@@ -164,7 +166,8 @@ horses[3]["isHungry"] = true;
 //       ponyTails: 12,
 //       horseIntro: [Function: horseIntro],
 //       ponyTailCount: [Function: ponyTailCount],
-//       isHungry: false
+//       isHungry: false,
+//       updateHorseLocation: [Function (anonymous)]
 //     },
 //     {
 //       name: 'Hugo',
@@ -172,14 +175,15 @@ horses[3]["isHungry"] = true;
 //       favoriteTreat: 'candy',
 //       age: 6,
 //       monthlyRent: 370,
-//       isInside: false,
+//       isInside: true,
 //       color: 'Ivory',
 //       ponyTails: 5,
 //       horseIntro: [Function: horseIntro],
 //       ponyTailCount: [Function: ponyTailCount],
-//       isHungry: true
+//       isHungry: true,
+//       updateHorseLocation: [Function (anonymous)]
 //     }
-// ]
+//   ]
 
 
 //---------------------- Growing business ----------------------//
@@ -240,9 +244,13 @@ function findHorseColor(hairColor){
 console.log(findHorseColor("Black"));
 
 function goOutHorses (horseVar){
+    console.log(`it's sunny outside, we should bring all the horses outside`);
     for(let i = 0; i < horseVar.length; i++){
         if(horseVar[i]["isInside"] === true){
             horseVar[i]["isInside"] = false;
+            console.log(`${horseVar[i].name} come outside!`);
+        } else {
+            console.log(`${horseVar[i].name} is already outside.`);
         }
     }
     console.log(`All horses have been brought outside to spend time in the sun`)
@@ -259,12 +267,16 @@ for (let i = 0; i < horses.length; i++){
 };
 
 function feedHorses (horseVar){
+    console.log(`It's feeding time!`)
     for(let i = 0; i < horseVar.length; i++){
         if (horseVar[i].isInside === false){
             horseVar[i].isInside = true;
+            console.log(`${horseVar[i].name} come inside!`);
+        } else {
+            console.log(`${horseVar[i].name} is already inside and being fed.`)
         }
-        console.log(`${horseVar[i].name} is inside with everyone and eating his favorite treat ${horseVar[i].favoriteTreat}`);
     };
+    console.log(`everyone is inside being fed and fattened up!!`)
 };
 console.log(feedHorses(horses));
 
